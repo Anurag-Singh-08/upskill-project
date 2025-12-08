@@ -1,0 +1,18 @@
+:root { --bg: #f7f7f9; --card: #fff; --muted: #666; }
+* { box-sizing: border-box; font-family: Inter, system-ui, Arial; }
+body { margin:0; background:var(--bg); color:#111; }
+.app-root { display:flex; min-height:100vh; }
+.app-sidebar { width:220px; background:linear-gradient(180deg,#fff,#fafafa); padding:20px; border-right:1px solid #e6e6e6; }
+.app-sidebar nav a { display:block; margin:8px 0; color:#0b5; text-decoration:none; }
+.app-main { flex:1; }
+.app-header { padding:20px; border-bottom:1px solid #eee; background:var(--card); }
+.content { padding:20px; }
+.card { background:var(--card); padding:16px; border-radius:8px; box-shadow:0 1px 3px rgba(0,0,0,0.04); max-width:600px; }
+.page-center { display:flex; height:100vh; align-items:center; justify-content:center; }
+.list { list-style:none; padding:0; }
+.list li { padding:8px 0; border-bottom:1px dashed #eee; }
+input, textarea { width:100%; padding:8px; margin:6px 0 12px; border:1px solid #ddd; border-radius:6px; }
+button { padding:8px 12px; border-radius:6px; border:0; cursor:pointer; background:#2563eb; color:#fff; }
+.error { color:#d33; }
+.success { color:#2a8; }
+.logout { margin-top:14px; background:#ef4444 }
